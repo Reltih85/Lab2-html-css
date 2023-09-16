@@ -32,27 +32,21 @@ body, h1, h2, p{
     align-items: center;
     margin: 0 500px; 
 }
-/* Estilo para el título del encabezado (header) */
+
 header h1 {
-    font-size: 48px; /* Tamaño de fuente más grande */
-    color: #fff; /* Color del texto */
-    background-color: #008000; /* Color de fondo verde */
-    padding: 10px 20px; /* Relleno del título */
-    border-radius: 10px; /* Borde redondeado */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    font-size: 48px; 
+    color: #fff; 
+    background-color: #008000; 
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
 }
-/* Estilo para el encabezado "Conóceme" */
 .encabezado-conoceme {
     text-align: center;
-    margin-bottom: 20px; /* Espacio entre el encabezado y el texto */
+    margin-bottom: 20px; 
 }
 
-.encabezado-conoceme h2 {
-    font-size: 24px; /* Tamaño de fuente */
-    color: #008000; /* Color de texto verde */
-    background-color: #fff; /* Fondo blanco */
-    display: inline-block; /* Para que el fondo se ajuste al texto */
-    padding: 5px 10px; /* Relleno alrededor del texto */
-    border-radius: 10px; /* Borde redondeado */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra suave */
+.img-modificada {
+    width: 300px; /* Establece el ancho deseado */
+    /* height: auto; */ /* Opcional: el navegador ajustará automáticamente la altura para mantener la proporción */
 }
